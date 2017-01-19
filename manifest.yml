@@ -1,0 +1,10 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Test App CF HL O1
+  host: Test-App-CF-HL-O1
+  disk_quota: 1024M
+  services:
+  - Cloudant NoSQL DB-4y
